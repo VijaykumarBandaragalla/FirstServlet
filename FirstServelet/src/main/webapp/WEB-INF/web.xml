@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+ 
+  <display-name>FirstServelet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet-mapping> 
+  	<servlet-name>MyServelet</servlet-name>
+  	<url-pattern>/fs</url-pattern>
+  </servlet-mapping>
+	
+  <servlet>
+	<servlet-name>MyServelet</servlet-name> 
+	<servlet-class>com.jsp.serveletsProject.MyServelet</servlet-class>
+  </servlet>
+</web-app>
+</element>
