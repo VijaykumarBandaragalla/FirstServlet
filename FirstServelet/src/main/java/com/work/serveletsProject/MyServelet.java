@@ -1,4 +1,4 @@
-package com.jsp.serveletsProject;
+package com.work.serveletsProject;
 
 import java.io.IOException;
 import java.sql.*;
